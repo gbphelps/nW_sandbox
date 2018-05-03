@@ -1,0 +1,32 @@
+.left-nav{
+  width: 75px;
+  height: 100%;
+  background:#f8f8f8;
+  border-right: 1px solid #ececec;
+  float:left;
+}
+
+.pane-notes{
+  width:350px;
+  height:100%;
+  border-right:1px solid #ececec;
+  background:#f8f8f8;
+}
+
+.pane-header{}
+
+.pane-content{}
+
+.note{}
+
+.content-main{}
+
+.content-header{}
+
+
+body{
+  margin:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
