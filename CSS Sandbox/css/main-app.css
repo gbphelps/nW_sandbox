@@ -1,5 +1,5 @@
 .left-nav{
-  width: 75px;
+  width: 72px;
   height: 100%;
   background:#f8f8f8;
   border-right: 1px solid #ececec;
@@ -37,9 +37,7 @@
   background:white;
 }
 
-.right-pointer{
-  margin-right: 10px;
-}
+
 
 .pane-content{
   height:100%;
@@ -65,4 +63,28 @@ body{
   height:100%;
   width:100%;
   position:absolute;
+}
+
+.icon-elephant{
+  display:block;
+  margin:auto;
+  padding-top:12px;
+}
+
+.lower-nav{
+  width:75px;
+  position:relative;
+}
+
+.upper-nav{
+}
+
+img {
+  display:block;
+  margin:auto;
+}
+
+.right-pointer{
+  display:inline;
+  margin-right: 10px;
 }
