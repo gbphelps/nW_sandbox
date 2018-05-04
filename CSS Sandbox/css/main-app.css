@@ -1,9 +1,10 @@
 .left-nav{
-  width: 72px;
+  width: 70px;
   height: 100%;
   background:#f8f8f8;
   border-right: 1px solid #ececec;
   float:left;
+  padding-right:2px;
 }
 
 .pane-notes{
@@ -18,7 +19,7 @@
 
 .pane-header{
   width:100%;
-  height:100px;
+  height:111px;
   background:white;
   border-bottom: 1px solid #ececec;
 }
@@ -77,12 +78,43 @@ body{
 }
 
 .upper-nav{
+  margin-top:36px;
 }
 
-img {
+.icon {
   display:block;
   margin:auto;
+  width:36px;
+  height:36px;
+  margin-bottom:12px;
+  transition: .3s;
 }
+
+.mtgnote{
+  background-image: url(../images/inactive_icons/mtgnote.png)
+}
+
+.mtgnote:hover{
+  background-image: url(../images/hover_icons/mtgnote.png)
+}
+
+.plus{
+  background-image: url(../images/inactive_icons/plus.png)
+}
+
+.plus:hover{
+  background-image: url(../images/hover_icons/plus.png)
+}
+
+.search{
+  background-image: url(../images/inactive_icons/search.png)
+}
+
+.search:hover{
+  background-image: url(../images/hover_icons/search.png)
+}
+
+
 
 .right-pointer{
   display:inline;
