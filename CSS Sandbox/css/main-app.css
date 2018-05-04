@@ -46,7 +46,7 @@
   display:block;
 }
 
-.note{
+.note-body{
   width:100%;
   height:120px;
   background:white;
@@ -73,8 +73,7 @@ body{
 }
 
 .lower-nav{
-  width:75px;
-  position:relative;
+  margin-top: 60px;
 }
 
 .upper-nav{
@@ -93,7 +92,6 @@ body{
 .mtgnote{
   background-image: url(../images/inactive_icons/mtgnote.png)
 }
-
 .mtgnote:hover{
   background-image: url(../images/hover_icons/mtgnote.png)
 }
@@ -101,7 +99,6 @@ body{
 .plus{
   background-image: url(../images/inactive_icons/plus.png)
 }
-
 .plus:hover{
   background-image: url(../images/hover_icons/plus.png)
 }
@@ -109,11 +106,39 @@ body{
 .search{
   background-image: url(../images/inactive_icons/search.png)
 }
-
 .search:hover{
   background-image: url(../images/hover_icons/search.png)
 }
 
+
+
+.star{
+  background-image: url(../images/inactive_icons/star.png)
+}
+.star:hover{
+  background-image: url(../images/hover_icons/star.png)
+}
+
+.note{
+  background-image: url(../images/inactive_icons/note.png)
+}
+.note:hover{
+  background-image: url(../images/hover_icons/note.png)
+}
+
+.notebook{
+  background-image: url(../images/inactive_icons/notebook.png)
+}
+.notebook:hover{
+  background-image: url(../images/hover_icons/notebook.png)
+}
+
+.tag{
+  background-image: url(../images/inactive_icons/tag.png)
+}
+.tag:hover{
+  background-image: url(../images/hover_icons/tag.png)
+}
 
 
 .right-pointer{
