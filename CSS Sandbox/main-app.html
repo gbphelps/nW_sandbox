@@ -2,8 +2,9 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main-app.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:200" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200|Lato:300" rel="stylesheet">
   </head>
   <body>
 
@@ -12,25 +13,78 @@
     <div class='left-nav'>
       <img class='icon-elephant' src='./images/baby-elephant.png'></img>
       <nav class='upper-nav'>
-        <div class='icon plus'></div>
-        <div class='icon mtgnote'></div>
-        <div class='icon search'></div>
+
+        <div class='icon plus'>
+          <div class='popup'>
+            <img class='popup-arrow' src='./images/gray_popup_arrow.png'></image>
+            <div class='popup-body'>New note</div>
+          </div>
+        </div>
+
+        <div class='icon mtgnote'>
+          <div class='popup'>
+            <img class='popup-arrow' src='./images/gray_popup_arrow.png'></image>
+            <div class='popup-body'>New meeting note</div>
+          </div>
+        </div>
+
+        <div class='icon search'>
+          <div class='popup'>
+            <img class='popup-arrow' src='./images/gray_popup_arrow.png'></image>
+            <div class='popup-body'>Search</div>
+          </div>
+        </div>
+
       </nav>
 
       <nav class='lower-nav'>
-        <div class='icon star'></div>
-        <div class='icon note'></div>
-        <div class='icon notebook'></div>
-        <div class='icon tag'></div>
+
+        <div class='icon star'>
+          <div class='popup'>
+            <img class='popup-arrow' src='./images/gray_popup_arrow.png'></image>
+            <div class='popup-body'>Shortcuts</div>
+          </div>
+        </div>
+
+        <div class='icon note'>
+          <div class='popup'>
+            <img class='popup-arrow' src='./images/gray_popup_arrow.png'></image>
+            <div class='popup-body'>Notes</div>
+          </div>
+        </div>
+
+        <div class='icon notebook'>
+          <div class='popup'>
+            <img class='popup-arrow' src='./images/gray_popup_arrow.png'></image>
+            <div class='popup-body'>Notebooks</div>
+          </div>
+        </div>
+
+        <div class='icon tag'>
+          <div class='popup'>
+            <img class='popup-arrow' src='./images/gray_popup_arrow.png'></image>
+            <div class='popup-body'>Tags</div>
+          </div>
+        </div>
+
       </nav>
     </div>
 
     <div class="pane-notes">
         <nav class="pane-header">
-          Notes
+          <h1>Notes</h1>
+          <div class='pane-subhead'>
+            <div>7 notes</div>
+            <div class='options'>Options<img class='tiny pointer' src='./images/arrows/tiny_down_pointer.png'></img></div>
+          </div>
         </nav>
         <div class="pane-content">
-            <div class="reminders"><img class='right-pointer' src='./images/arrows/right_pointer.png'></img>Reminders</div>
+            <div class="reminders">
+              <div class='reminders-header'>
+                <div><img class='right-pointer' src='./images/arrows/right_pointer.png'></img>Reminders</div>
+                <div style="font-family:'Lato'">1<img class='reminder-icon' src='./images/reminder.png'></img></div>
+              </div>
+            </div>
             <div class="note-body"></div>
             <div class="note-body"></div>
             <div class="note-body"></div>

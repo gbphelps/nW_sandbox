@@ -7,6 +7,31 @@
   padding-right:2px;
 }
 
+
+div{
+display:block;
+}
+
+
+/* for pixel perfect NOTES header -- need to refactor */
+h1{
+  position:relative;
+  top: 1px;
+  left: -.5px;
+}
+
+
+.pointer{
+margin-left:2px;
+margin-right:-1px;
+margin-bottom:1px;
+}
+
+
+.reminder-icon{
+  margin-top: -2px;
+}
+
 .pane-notes{
   width:350px;
   height:100%;
@@ -24,18 +49,30 @@
 
 .pane-header{
   width:100%;
-  height:114px;
+  height:108px;
   background:white;
   border-bottom: 1px solid #ececec;
   font-size:21px;
   color: #878787;
   text-transform:uppercase;
   font-family: 'Raleway';
-  padding-top: 24px;
-  padding-left: 24px;
+  padding: 25px;
   box-sizing: border-box;
   letter-spacing: 2.5px;
 }
+
+.pane-subhead{
+  text-transform:none;
+  letter-spacing: 1px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Raleway';
+  position:relative;
+  top: 28px;
+  letter-spacing:1px;
+}
+
 
 .reminders{
   font-family: 'Raleway';
@@ -44,14 +81,16 @@
   font-weight:400;
   color: #878787;
   font-size:14px;
-  padding:11px 0 13px 28px;
+  padding:12px 22px 12px 28px;
   border-top:2px solid #ececec;
   border-bottom:3px solid #ececec;
   box-sizing:border-box;
   background:white;
 }
 
-
+.options{
+font-size: 14px;
+}
 
 .pane-content{
   height:100%;
@@ -101,6 +140,7 @@ body{
   height:36px;
   margin-bottom:12px;
   transition: .3s;
+  position:relative;
 }
 
 .mtgnote{
@@ -155,8 +195,42 @@ body{
 }
 
 
+.popup{
+  position:absolute;
+  left:45px;
+  top:7px;
+  display: none;
+}
+
+.icon:hover > .popup{
+  display: block;
+}
+
+.popup-arrow{
+}
+
+.popup-body{
+  position:absolute;
+  top:0px;
+  left:4px;
+  white-space:nowrap;
+  background:#606060;
+  color:#d9d9d9;
+  font-family: 'Lato';
+  text-transform:uppercase;
+  font-size:12px;
+  padding:4px 8px;
+  border-radius: 2px;
+}
+
+
 .right-pointer{
   display:inline;
   margin-right: 8px;
   margin-bottom: 1px;
+}
+
+.reminders-header{
+  display:flex;
+  justify-content:space-between;
 }
