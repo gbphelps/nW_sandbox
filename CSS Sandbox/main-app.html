@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main-app.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:200|Lato:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300|Lato:300" rel="stylesheet">
   </head>
   <body>
 
@@ -75,14 +75,18 @@
           <h1>Notes</h1>
           <div class='pane-subhead'>
             <div>7 notes</div>
-            <div class='options'>Options<img class='tiny pointer' src='./images/arrows/tiny_down_pointer.png'></img></div>
+            <div class='options'>Options<img class='tiny pointer' src='./images/arrows/tiny_down_pointer.png'></img>
+              <div class="options-popup"></div>
+            </div>
           </div>
         </nav>
         <div class="pane-content">
             <div class="reminders">
               <div class='reminders-header'>
                 <div><img class='right-pointer' src='./images/arrows/right_pointer.png'></img>Reminders</div>
-                <div style="font-family:'Lato'">1<img class='reminder-icon' src='./images/reminder.png'></img></div>
+                <div class="reminders-counter">1<img class='reminder-icon' src='./images/reminder.png'></img>
+                  <div class='reminders-popup'></div>
+                </div>
               </div>
             </div>
             <div class="note-body">
@@ -108,7 +112,7 @@
 
             <div class="note-body">
             </div>
-            
+
             <div class="note-body">
             </div>
         </div>
